@@ -1,0 +1,225 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "5ec05778-4666-4135-9b36-2890c7b41d6b",
+   "metadata": {},
+   "source": [
+    "# Introduction to Numbers\n",
+    "int:Represents integer numbers,e.g.,9.\n",
+    "\n",
+    "float:Represents floating-point numbers,e.g.,3.14.\n",
+    "\n",
+    "complex:Represents complex numbers with real and imaginary parts,e.g.,9+10j."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "e7111eef-3fc9-4dc0-8c3e-6721c594e1b5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "#integer\n",
+    "age=23\n",
+    "print(type(age))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "06698669-c1c4-41a7-84a7-e593f9494156",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'float'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "#float\n",
+    "pi=3.14\n",
+    "print(type(pi))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "dfd2ce9a-6adf-4ef6-9b68-da9599b8ba1b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'complex'>\n",
+      "Real part: 9.0\n",
+      "Imaginary part: 10.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "#complex\n",
+    "c=9+10j\n",
+    "print(type(c))\n",
+    "print(\"Real part:\",c.real)\n",
+    "print(\"Imaginary part:\",c.imag)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "00cfc620-5dcb-4e69-bc61-6ac773cd1f53",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Type Conversion"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "901a0fce-658b-443f-aa20-5417378e4d3f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(int(3.14))#float to int"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "a1c32c8d-79b6-433f-bae2-231ba2204418",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(float(9))#int to float"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "36a8186a-4f1a-46b4-8466-66b84338711e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#functions"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "39055864-2e95-419d-a26b-5fbd23890791",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "d=-9\n",
+    "print(abs(d))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "1299ecf4-9858-4bda-9f46-abefb0f5fb0c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "81"
+      ]
+     },
+     "execution_count": 34,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "pow(d,2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "762008bc-41aa-4f3d-b4c2-dd1a79c94c81",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "pi=3.14\n",
+    "print(round(pi))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "36c9d285-b9d1-4b02-8a98-0faf3dd808b5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

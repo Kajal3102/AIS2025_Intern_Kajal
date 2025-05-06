@@ -1,0 +1,146 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "94898627-b56f-4f7c-ac3d-d230b20640a7",
+   "metadata": {},
+   "source": [
+    "# Introducation of datatype:Tuple\n",
+    "A tuple is an ordered,indexed and immutable collection of python.Tuples are similar to lists,but cannot be modified once created.They are defined using parenthesis()."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "1b0e3acf-dda5-4535-b624-142b9bbece1d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(9, 2, 10, 3, 'Kajal', 'Neha')\n"
+     ]
+    }
+   ],
+   "source": [
+    "T=(9,2,10,3,\"Kajal\",\"Neha\")\n",
+    "print(T)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "cf64bab2-4861-4099-b5b6-c9786bb2ba0a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9\n",
+      "Kajal\n"
+     ]
+    }
+   ],
+   "source": [
+    "#indexing\n",
+    "print(T[0])\n",
+    "print(T[-2])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "d5f91755-c659-4c14-89b7-025b11c2cd52",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(10, 3, 'Kajal', 'Neha')\n"
+     ]
+    }
+   ],
+   "source": [
+    "#slicing\n",
+    "print(T[2:])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "8e1770f1-02b7-4519-a461-e3d04014b34a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(9, 2)\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(T[:2])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "5940796d-052a-4497-b55d-2461cb85a116",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "3\n",
+      "6\n",
+      "True\n",
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "#common methods function\n",
+    "print(T.count(2))\n",
+    "print(T.index(3))\n",
+    "print(len(T))\n",
+    "print(\"Kajal\" in T)\n",
+    "print(\"Sam\" in T)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0b98478c-f022-447a-9e5b-4fc9ef890abe",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
