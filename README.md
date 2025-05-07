@@ -24,3 +24,9 @@ List Data Types:How to define and access list items List slicing,nested lists Mu
 .pop(),.sort(),.reverse() in keyword for membership
 
 Tuple Data Type:How to create tuples using () differences between lists and tuples Tuple indexing and slicing use of tuples in functions and dictionary keys
+
+Date: 7 May 2025 Day 2 :Create notebooks for Set, Dictionary
+
+Set Data Type : This notebook explains the set data type in python. It includes: Defination Creating set using different methods. common operation: union, intersection, difference add(), remove(), union(), intersection(), clear().
+
+Dictionary Data Type: How to create dictionary using {} Dictionary indexing, membership common methods/ function : get(),keys(),values(), items(),update(),pop().
