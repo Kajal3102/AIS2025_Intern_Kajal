@@ -30,3 +30,16 @@ Date: 7 May 2025 Day 2 :Create notebooks for Set, Dictionary
 Set Data Type : This notebook explains the set data type in python. It includes: Defination Creating set using different methods. common operation: union, intersection, difference add(), remove(), union(), intersection(), clear().
 
 Dictionary Data Type: How to create dictionary using {} Dictionary indexing, membership common methods/ function : get(),keys(),values(), items(),update(),pop().
+
+# Task 3
+Intern Name:Raut Kajal Mahadev
+Date:9 May 2025
+This notebook covers essential Python control flow tools used in decision-making and iteration. Each section is designed with clear examples and explanations to help learners understand the logic and usage of different flow-control statements.
+
+Section 1: Conditional Statements if Statement if-else Statement if-elif-else Statement
+
+Section 2: for Loop Iterating through lists, strings, and ranges
+
+Section 3: while Loop Looping based on condition Infinite loop handling
+
+Section 4: Control Statements break: Exit the loop early continue: Skip current iteration pass: Placeholder for future code
