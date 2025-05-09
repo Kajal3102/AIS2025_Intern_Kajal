@@ -33,7 +33,7 @@ Dictionary Data Type: How to create dictionary using {} Dictionary indexing, mem
 
 # Task 3
 Intern Name:Raut Kajal Mahadev
-Date:9 May 2025
+Date:8 May 2025
 This notebook covers essential Python control flow tools used in decision-making and iteration. Each section is designed with clear examples and explanations to help learners understand the logic and usage of different flow-control statements.
 
 Section 1: Conditional Statements if Statement if-else Statement if-elif-else Statement
@@ -43,3 +43,18 @@ Section 2: for Loop Iterating through lists, strings, and ranges
 Section 3: while Loop Looping based on condition Infinite loop handling
 
 Section 4: Control Statements break: Exit the loop early continue: Skip current iteration pass: Placeholder for future code
+
+# Task 4
+Date:9 May 2025
+
+This notebook explains the various function in python.
+
+-User-defined functions for logical operations like Armstrong check, vowel counting, HCF, etc.
+
+-Lambda functions for compact anonymous operations (e.g., cube, conversions).
+
+-Filter functions to extract specific data from lists.
+
+-Map functions to apply transformations to iterable data.
+
+-Format functions for clean string output.
