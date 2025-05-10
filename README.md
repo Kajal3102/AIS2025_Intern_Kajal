@@ -52,6 +52,19 @@ This notebook explains the various function in python.
 -User-defined functions for logical operations like Armstrong check, vowel counting, HCF, etc.
 
 -Lambda functions for compact anonymous operations (e.g., cube, conversions).
+# Task 5
+Date:10 May 2025
+
+This notebook demonstrates various functionalities of the NumPy library, a fundamental package for scientific computing in Python. The goal of this task is to explore key NumPy features including:
+-  Installation and import of NumPy
+  
+- Creating arrays manually and using built-in functions
+  
+- Performing basic arithmetic and statistical operations on arrays
+  
+- Indexing, slicing, and reshaping arrays
+  
+- Advanced operations such as broadcasting and aggregation
 
 -Filter functions to extract specific data from lists.
 
